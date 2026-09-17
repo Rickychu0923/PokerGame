@@ -7,7 +7,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     //初始化
     void Start()
     {
-        Debug.Log(testCard.Rank.ToString() + " of " + testCard.Suit.ToString());
+        Debug.Log(testCard.CardInfo());
     }
 
     //每一FPS 執行一次

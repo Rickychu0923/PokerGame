@@ -16,7 +16,21 @@ namespace PokerGame.Core
             Rank = rank;
         }
         #endregion 建構式
+
+        #region 公開方法
+        /// <summary>
+        /// 回傳樸克牌花色和點數
+        /// </summary>
+        /// <returns>花色+數值</returns>
+        public string CardInfo()
+        {
+            return Rank.ToString() + " of " + Suit.ToString();
+        }
+        # endregion 公開方法
+
+
     }
+
 }
 
 

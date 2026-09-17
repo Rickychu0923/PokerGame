@@ -11,7 +11,4 @@ namespace PokerGame.Core
         Spades
     }
 
-
 }
-
-
