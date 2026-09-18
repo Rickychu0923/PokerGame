@@ -10,6 +10,19 @@ namespace PokerGame.Core
     public class Deck
     {
         #region 公有方法
+        public void Reset()
+        {
+            _nextIndex = 0;
+        }
+        public void Shuffle()
+        {
+
+        }
+        public PlayingCard Draw()
+        {
+            
+            return _cards[_nextIndex++];
+        }
         #endregion 公有方法
 
         #region 私有方法
@@ -29,6 +42,8 @@ namespace PokerGame.Core
                 }
             }
         }
+
+
         #endregion 私有方法
 
         #region 建構式
@@ -40,6 +55,7 @@ namespace PokerGame.Core
 
         #region 私有欄位
         private readonly List<PlayingCard> _cards = new List<PlayingCard>();
+        private int _nextIndex; 
         #endregion 私有欄位
 
         #region 公開屬性

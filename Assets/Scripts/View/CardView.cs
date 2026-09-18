@@ -24,7 +24,11 @@ namespace PokerGame.View
             _rankLabel.color = GetSuitColor(card.Suit);
         }
         #endregion 公開方法
-
+        /// <summary>
+        /// 取得翻譯成的數值文字
+        /// </summary>
+        /// <param name="rank"></param>
+        /// <returns></returns>
         #region 私有方法
         private string GetRankText(Rank rank) 
         {
@@ -48,7 +52,6 @@ namespace PokerGame.View
                 case Suit.Hearts: return "♥";
                 case Suit.Spades: return "♠";
                 default: return "";
-
             }
         }
 

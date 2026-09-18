@@ -3,12 +3,12 @@ using Unity.VisualScripting;
 
 namespace PokerGame.Core
 {
-    [Serializable]//請系統預先序列化(非Monobehavier也看的到資料)
+    [Serializable]//請系統預先序列化(非Monobehavior也看的到資料)
     public class PlayingCard
     {
         #region 公開屬性
-        public Suit Suit; //{ get; }
-        public Rank Rank; //{ get; }
+        public Suit Suit { get; }
+        public Rank Rank { get; }
         #endregion 公開屬性
 
         #region 建構式 //ctrl + d複製
