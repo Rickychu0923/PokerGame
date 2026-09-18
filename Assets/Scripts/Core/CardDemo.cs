@@ -10,12 +10,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         Debug.Log(testCard.CardInfo());
         //視覺顯示綁定資料
-        cardView.Bind(testCard);
+        
     }
 
     //每一FPS 執行一次
     void Update()
     {
-        
+        cardView.Bind(testCard);
     }
 }
