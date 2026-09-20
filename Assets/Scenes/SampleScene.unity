@@ -506,9 +506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a66f9fe92740d744b93e4036eabaa219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  testCard:
-    Suit: 2
-    Rank: 7
   cardView: {fileID: 913873416}
 --- !u!1001 &2080028948
 PrefabInstance:
