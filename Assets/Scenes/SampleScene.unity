@@ -364,104 +364,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &661357448 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5262684064163625521, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-  m_PrefabInstance: {fileID: 2080028948}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
---- !u!1 &913873414 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6664877724703428535, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-  m_PrefabInstance: {fileID: 2080028948}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &913873415
-SpriteRenderer:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913873414}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: e28a9db36eca94f4893668f92b42f410, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.2, y: 2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
-  m_BlendShapeWeights: []
 --- !u!114 &913873416 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3896760189084430387, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
   m_PrefabInstance: {fileID: 2080028948}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913873414}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da842361a32e4504e842bd1625761c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CardView
---- !u!114 &1156183015 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-  m_PrefabInstance: {fileID: 2080028948}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
 --- !u!1 &2005082421
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,94 +428,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -3896760189084430387, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: _rankLabel
-      value: 
-      objectReference: {fileID: 661357448}
-    - target: {fileID: -3896760189084430387, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: _suitLabel
-      value: 
-      objectReference: {fileID: 1156183015}
-    - target: {fileID: 1445659668297591152, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1445659668297591152, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1445659668297591152, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2374541096465399993, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2374541096465399993, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2374541096465399993, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_text
-      value: ??
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSize
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSizeMax
-      value: 72
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSizeMin
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_TextWrappingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_TextStyleHashCode
-      value: -1183493901
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694898589917495971, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
-      value: 1801810542
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262684064163625521, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_text
-      value: 00
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262684064163625521, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSize
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262684064163625521, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262684064163625521, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_TextWrappingMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6243047704174020239, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.16431
@@ -647,25 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardView
       objectReference: {fileID: 0}
-    - target: {fileID: 8739144307473426079, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8739144307473426079, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8739144307473426079, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6664877724703428535, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 913873415}
     - targetCorrespondingSourceObject: {fileID: 749731621683399508, guid: b6b2959bfc4d0404fb9f418d9f716d49, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
